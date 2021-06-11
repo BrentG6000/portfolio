@@ -5,6 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './fonts/American-Desktop.ttf'
 import './fonts/HuntingStarRegular.ttf'
+import './fonts/lato/Lato-Black.ttf'
+import './fonts/lato/Lato-Bold.ttf'
+import './fonts/lato/Lato-Hairline.ttf'
+import './fonts/lato/Lato-Light.ttf'
+import './fonts/lato/Lato-Regular.ttf'
+import './fonts/merriweather/Merriweather-Black.ttf'
+import './fonts/merriweather/Merriweather-Bold.ttf'
+import './fonts/merriweather/Merriweather-Light.ttf'
+import './fonts/merriweather/Merriweather-Regular.ttf'
 
 ReactDOM.render(
   <React.StrictMode>

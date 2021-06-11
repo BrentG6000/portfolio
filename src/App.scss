@@ -37,7 +37,7 @@ body.active {
 
 .portWrapper {
   display: grid;
-  grid-template-rows: 190px 1700px 190px;
+  grid-template-rows: 190px 1400px 190px;
   grid-template-areas:
     "header",
     "content",
@@ -253,7 +253,10 @@ img:hover {
 }
 
 page {
-  font-family: AmericanDesktop;
+  font-family: Lato;
+  h1 {
+    font-family: Merriweather;
+  }
   display: inline-grid;
   justify-items: center;
   background-color: white;
@@ -261,6 +264,7 @@ page {
 
 .homePage {
   grid-template-rows: 10% 20% 25% 5% 5% auto;
+
 }
 
 .aboutPage {
@@ -275,7 +279,7 @@ page {
 }
 
 .portPage {
-  grid-template-rows: 6% 25% 7% 3.5% 3.5% 20% 10% 12% 5% auto;
+  grid-template-rows: 6% 25% 4% 3.5% 3.5% 20% 13% 12% 5% auto;
   img {
     grid-row: 6;
   }
