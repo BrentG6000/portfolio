@@ -222,8 +222,8 @@ img {
   height: 60px;
   transition: transform 250ms;
   @media(max-width: 480px) {
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
   }
 }
 
@@ -241,6 +241,10 @@ img:hover {
   @media (max-width: 720px) {
     height: 200px;
     width: 400px;
+  }
+  @media (max-width: 480px) {
+    height: 150px;
+    width: 300px;
   }
 }
 
