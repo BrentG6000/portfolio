@@ -25,28 +25,30 @@ function Navbar() {
                 <firstChar>W</firstChar>eb Developer | <firstChar>R</firstChar>eact | 
                 <firstChar>E</firstChar>xpress | <firstChar>M</firstChar>ongodb
             </div>
-            <ul>
-                <Link to={ '/' }>
-                    <li>   
-                        <div className='link'>HOME</div>
-                    </li>
-                </Link>
-                <Link to={ '/Portfolio' }>
-                    <li>
-                        <div className='link'>PORTFOLIO</div>
-                    </li>
-                </Link>
-                <Link to={ '/About' }>
-                    <li>
-                        <div className='link'>ABOUT</div>
-                    </li>
-                </Link>
-                <Link to={ '/Contact' }>
-                    <li>
-                        <div className='link'>CONTACT</div>
-                    </li>
-                </Link>
-            </ul>
+            <div className='navLinks'>
+                <ul>
+                    <Link to={ '/' }>
+                        <li >   
+                            <div className='link'>HOME</div>
+                        </li>
+                    </Link>
+                    <Link to={ '/Portfolio' }>
+                        <li>
+                            <div className='link'>PORTFOLIO</div>
+                        </li>
+                    </Link>
+                    <Link to={ '/About' }>
+                        <li>
+                            <div className='link'>ABOUT</div>
+                        </li>
+                    </Link>
+                    <Link to={ '/Contact' }>
+                        <li>
+                            <div className='link'>CONTACT</div>
+                        </li>
+                    </Link>
+                </ul>
+            </div>
         </nav>
     )
 }

@@ -154,11 +154,16 @@ li {
   }
 }
 
+
+
 ul {
+  position: relative;
+  grid-column: 2 / span 1;
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
-  width: 100%;
+  // display: grid;
+  justify-content: space-between;
+  //width: 100%;
   padding: 0;
   padding-top: 25px;
   flex-direction: row;
@@ -172,6 +177,7 @@ ul {
 	  display: block;
 	  position: relative;
 	  padding: 0.2em 0;
+    }
   }
 
   a::after {
@@ -190,7 +196,6 @@ ul {
   a:focus::after{
 	  transform: scale(1);
   }
-}
 
 a {
   color: black;

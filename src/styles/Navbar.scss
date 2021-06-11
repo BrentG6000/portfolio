@@ -40,6 +40,20 @@ nav {
     }
   }
 
+  .navLinks {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    @media(max-width: 1080px) {
+      grid-template-columns: 15% 70% 15%;
+    }
+    @media(max-width: 560px) {
+      grid-template-columns: 10% 80% 10%;
+    }
+    ul {
+      grid-column: 2 / span 1;
+    }
+  }
+
   #toggle {
     position: absolute;
     right: 5px;
