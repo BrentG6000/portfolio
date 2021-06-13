@@ -161,9 +161,7 @@ ul {
   grid-column: 2 / span 1;
   list-style: none;
   display: flex;
-  // display: grid;
   justify-content: space-between;
-  //width: 100%;
   padding: 0;
   padding-top: 25px;
   flex-direction: row;
@@ -231,6 +229,18 @@ img:hover {
   transform: translateY(-10px);
 }
 
+.selfie { 
+  height: 500px;
+  width: 500px;
+  grid-row: 4;
+  grid-column: 2;
+  border-radius: 70px;
+}
+
+.selfie:hover {
+  transform: translateY(0px);
+}
+
 .project {
   height: 400px;
   width: 800px;
@@ -268,7 +278,24 @@ page {
 }
 
 .aboutPage {
-  grid-template-rows: 6% 25% 5% 3.5% 5% auto;
+  grid-template-rows: 6% 25% 6% 5% 5% 5% auto;
+  grid-template-columns: 10% 35% 10% 35% 10% 
+  
+}
+
+.aboutText {
+  grid-row: 5;
+  grid-column: 4 / span 1;
+  //grid-template-rows:
+  //grid-template-rows: 50%
+  // h1 {
+  //   grid-row: 6;
+  //   grid-column: 5;
+  // }
+  // p {
+  //   grid-row: 6;
+  //   grid-column: 5;
+  // }
 }
 
 .contactPage {
@@ -279,7 +306,7 @@ page {
 }
 
 .portPage {
-  grid-template-rows: 6% 25% 4% 3.5% 3.5% 20% 13% 12% 5% auto;
+  grid-template-rows: 6% 25% 6% 3.5% 3.5% 20% 13% 10% 5% auto;
   img {
     grid-row: 6;
   }

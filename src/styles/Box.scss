@@ -3,6 +3,7 @@
     font-size: 50;
     position: relative;
     grid-row: 2;
+    border-radius: 20px;
     padding-top: 0.5rem;
     padding-left: 0.5rem;
     background: var(--dark);
@@ -51,6 +52,7 @@
   overflow: hidden;
   outline: 0;
   background: var(--dark);
+  border-radius: 20px;
   grid-area: 'content';
   height: 20rem;
   width: 20rem;
@@ -105,7 +107,10 @@
   font-family: HuntingStar;
   font-size: 50;
   position: relative;
+  border-radius: 20px;
   grid-row: 2;
+  grid-column: 2 / span 3;
+  justify-self: center;
   padding-top: 0.5rem;
   padding-left: 0.5rem;
   background: var(--dark);
@@ -141,6 +146,7 @@
   font-family: HuntingStar;
   font-size: 50;
   position: relative;
+  border-radius: 20px;
   grid-row: 2;
   padding-top: 0.5rem;
   padding-left: 0.5rem;
