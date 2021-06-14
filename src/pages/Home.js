@@ -6,9 +6,10 @@ import '../styles/Box.scss'
 
 function Home () {
     const [darkMode, setDarkMode] = useContext(DarkModeProvider.context)
-    const text = <p>Here you can learn more about me and see some of my web development ability.
-        Feel free to look at my portfolio, about, or contact pages. I am excited to share my work
-    with you.
+    const text = <p>Hi, I'm Brent. Here you can learn more about me and see some of my web projects.
+        Feel free to look at my portfolio and about pages to find out more about me and my work. If
+        you have any questions for me, there is also a contact page. I am excited to share my work
+        with you!
     </p>
 
     return (
