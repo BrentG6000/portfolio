@@ -1,5 +1,4 @@
 import React, { useState, useEffect, createContext } from 'react'
-import { uuid } from 'uuidv4'
 
 const DarkModeContext = createContext([])
 

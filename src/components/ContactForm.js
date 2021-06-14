@@ -1,8 +1,6 @@
 import { useState } from 'react'
 import Emailjs from 'emailjs-com'
-import { Link } from 'react-router-dom'
 import '../styles/Contact.scss'
-import Button from '../components/Button'
 
 export default function ContactUs() {
   const [message, setMessage] = useState('')
@@ -15,7 +13,6 @@ export default function ContactUs() {
     }
     Emailjs.sendForm('service_b25pqpr', 'contact_form', e.target, 'user_9z6nLJ2jV6gSIZRhm8Bhd')
       .then((result) => {
-          // console.log(result.text);
           alert('Your message was successfully submitted!')
           setMessage('')
       }, (error) => {
@@ -34,7 +31,6 @@ export default function ContactUs() {
       <button className='custom-btn btn-1' type="submit" target='_blank'>
         <span>Send</span>
       </button>
-        
     </form>
   )
 }
